@@ -1,0 +1,37 @@
+
+.photoContainer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+}
+
+.photoContainer .block{
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+
+    background-image: url(img.png);
+    background-color:red ;
+    background-size: 50vh 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+ 
+}
+
+
+
+.dispersionContainer{
+    width: 50vh;
+    height: 50vh;
+    margin: 0px auto;
+    border-radius:50% ;
+    background-color: black;
+    overflow: hidden;
+    border: 2px solid red;
+}
